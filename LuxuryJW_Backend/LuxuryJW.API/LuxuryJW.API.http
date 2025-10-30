@@ -1,0 +1,6 @@
+@LuxuryJW.API_HostAddress = http://localhost:5184
+
+GET {{LuxuryJW.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

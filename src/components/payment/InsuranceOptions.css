@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #007bff;
+    --primary-hover: #0056b3;
+    --success-color: #28a745;
+    --border-color: #ddd;
+    --text-primary: #333;
+    --text-secondary: #666;
+    --light-gray: #f9f9f9;
+    --active-bg: #eef7ff;
+}
+
+.insurance-options {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .insurance-options h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+        color: var(--text-primary);
+        text-align: left;
+    }
+
+.insurance-subtitle {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.insurance-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.insurance-options li {
+    padding: 16px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    cursor: pointer;
+    background: var(--light-gray);
+    transition: all 0.2s ease-in-out;
+}
+
+    .insurance-options li:hover {
+        background: #eef5ff;
+        border-color: var(--primary-color);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+    }
+
+    .insurance-options li.active {
+        background: var(--active-bg);
+        border-color: var(--primary-color);
+        font-weight: bold;
+    }
+
+.insurance-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.insurance-price {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.insurance-options p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.insurance-selected {
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--success-color);
+    text-align: center;
+    padding: 10px;
+    background: rgba(40, 167, 69, 0.1);
+    border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .insurance-options {
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    .insurance-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .insurance-options li {
+        padding: 12px;
+    }
+}

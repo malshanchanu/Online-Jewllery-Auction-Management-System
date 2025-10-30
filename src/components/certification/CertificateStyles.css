@@ -1,0 +1,79 @@
+/* Add these to your existing CertificateStyles.css */
+
+.certificate-description {
+    font-size: 16px;
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.certificate-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    border-left: 4px solid #007bff;
+}
+
+    .certificate-item .label {
+        font-weight: 600;
+        color: #2d3748;
+    }
+
+    .certificate-item .value {
+        color: #3182ce;
+        font-weight: 500;
+    }
+
+.verify-button {
+    background: #38a169;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background 0.2s;
+}
+
+    .verify-button:hover {
+        background: #2f855a;
+    }
+
+.certificate-footer {
+    margin-top: 25px;
+    padding: 15px;
+    background: #e6fffa;
+    border-radius: 6px;
+    border-left: 4px solid #38b2ac;
+}
+
+    .certificate-footer p {
+        margin: 0;
+        color: #234e52;
+        font-size: 14px;
+    }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .certificate-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certificate-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}

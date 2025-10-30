@@ -1,0 +1,232 @@
+.cert-viewer {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+    .cert-viewer h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        text-align: center;
+        color: #333;
+    }
+
+    .cert-viewer table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .cert-viewer th,
+    .cert-viewer td {
+        padding: 12px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .cert-viewer th {
+        background: #f5f5f5;
+        font-weight: bold;
+    }
+
+    .cert-viewer tr:nth-child(even) {
+        background: #fafafa;
+    }
+
+    .cert-viewer a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .cert-viewer a:hover {
+            text-decoration: underline;
+        }
+.cert-viewer {
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+    .cert-viewer h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #2d3748;
+        font-weight: 600;
+    }
+
+.loading-spinner {
+    text-align: center;
+    padding: 40px;
+    color: #718096;
+    font-style: italic;
+}
+
+.error-message {
+    background: #fed7d7;
+    color: #c53030;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    border: 1px solid #feb2b2;
+}
+
+.retry-button {
+    background: #3182ce;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+    .retry-button:hover {
+        background: #2c5282;
+    }
+
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.cert-viewer table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.cert-viewer th {
+    background: #f7fafc;
+    padding: 15px 12px;
+    border: 1px solid #e2e8f0;
+    font-weight: 600;
+    color: #4a5568;
+    text-align: left;
+}
+
+.cert-viewer td {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    vertical-align: middle;
+}
+
+.cert-viewer tr:nth-child(even) {
+    background: #fafafa;
+}
+
+.cert-viewer tr:hover {
+    background: #edf2f7;
+}
+
+.file-name {
+    font-weight: 500;
+    color: #2d3748;
+}
+
+.cert-type {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #718096;
+}
+
+.cert-date {
+    color: #718096;
+    font-size: 14px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.view-link {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border: 1px solid #3182ce;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+    .view-link:hover {
+        background: #3182ce;
+        color: white;
+        text-decoration: none;
+    }
+
+.download-button {
+    background: #38a169;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+    .download-button:hover {
+        background: #2f855a;
+    }
+
+.no-certificates {
+    text-align: center;
+    padding: 40px;
+    color: #718096;
+}
+
+    .no-certificates p {
+        margin: 5px 0;
+    }
+
+.certificate-stats {
+    text-align: center;
+    padding: 15px;
+    background: #f7fafc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+    .certificate-stats p {
+        margin: 0;
+        color: #4a5568;
+        font-size: 14px;
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cert-viewer {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .view-link, .download-button {
+        text-align: center;
+        width: 100%;
+    }
+
+    .cert-viewer th,
+    .cert-viewer td {
+        padding: 8px;
+        font-size: 14px;
+    }
+}

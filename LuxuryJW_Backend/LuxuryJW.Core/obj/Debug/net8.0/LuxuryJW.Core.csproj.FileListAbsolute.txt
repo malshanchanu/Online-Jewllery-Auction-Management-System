@@ -1,0 +1,13 @@
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\LuxuryJW.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\LuxuryJW.Core.AssemblyInfoInputs.cache
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\LuxuryJW.Core.AssemblyInfo.cs
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\LuxuryJW.Core.csproj.CoreCompileInputs.cache
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\LuxuryJW.Core.sourcelink.json
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\bin\Debug\net8.0\LuxuryJW.Core.deps.json
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\bin\Debug\net8.0\LuxuryJW.Core.dll
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\bin\Debug\net8.0\LuxuryJW.Core.pdb
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\LuxuryJW.Core.csproj.AssemblyReference.cache
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\LuxuryJW.Core.dll
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\refint\LuxuryJW.Core.dll
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\LuxuryJW.Core.pdb
+D:\luxury-jewelries\LuxuryJW_Backend\LuxuryJW.Core\obj\Debug\net8.0\ref\LuxuryJW.Core.dll

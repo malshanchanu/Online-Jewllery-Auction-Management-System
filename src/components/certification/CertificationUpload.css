@@ -1,0 +1,133 @@
+.cert-upload {
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+    .cert-upload h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #2d3748;
+        font-weight: 600;
+    }
+
+.upload-instructions {
+    font-size: 14px;
+    color: #718096;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.file-label {
+    padding: 12px 20px;
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+    .file-label:hover {
+        background: #0056b3;
+    }
+
+.file-input {
+    display: none;
+}
+
+.file-name {
+    font-size: 14px;
+    color: #4a5568;
+    font-weight: 500;
+}
+
+.upload-button {
+    padding: 12px 24px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+    .upload-button:hover:not(:disabled) {
+        background: #218838;
+    }
+
+    .upload-button:disabled {
+        background: #a0aec0;
+        cursor: not-allowed;
+    }
+
+.error-message {
+    color: #e53e3e;
+    background: #fed7d7;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid #feb2b2;
+}
+
+.item-context {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #718096;
+    padding: 10px;
+    background: #f7fafc;
+    border-radius: 6px;
+}
+
+.spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-top: 2px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .cert-upload {
+        margin: 15px;
+        padding: 20px;
+    }
+
+        .cert-upload h2 {
+            font-size: 20px;
+        }
+}

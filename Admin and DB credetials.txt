@@ -1,0 +1,9 @@
+Admin
+
+Email- admin@luxuryjewelry.com
+Password - LuxuryAdmin2024!
+
+Database (MongoDB)
+
+DBname - luxury
+Password - gmthrsd37
